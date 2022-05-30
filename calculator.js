@@ -1,17 +1,17 @@
 const calculator = {
     add: function(firstNumber, secondNumber) {
-        console.log(firstNumber + secondNumber);
+        return firstNumber + secondNumber;
     },
     minus: function(firstNumber, secondNumber) {
-        console.log(firstNumber - secondNumber);
+        return firstNumber - secondNumber;
     },
     times: function(firstNumber, secondNumber) {
-        console.log(firstNumber * secondNumber);
+        return firstNumber * secondNumber;
     },
     divide: function(firstNumber, secondNumber) {
-        console.log(firstNumber / secondNumber);
+        return firstNumber / secondNumber;
     },
     power: function(firstNumber, secondNumber) {  // 제곱
-        console.log(firstNumber ** secondNumber);
+        return firstNumber ** secondNumber;
     },
 };
